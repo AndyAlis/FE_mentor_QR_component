@@ -1,0 +1,90 @@
+/* set variables for colors just in case */
+
+:root {
+    --clr-white: hsl(0, 0%, 100%);
+    --clr-light-gray: hsl(212, 45%, 89%);
+    --clr-gray-blue: hsl(220, 15%, 55%);
+    --clr-dark-blue: hsl(218, 44%, 22%);
+}
+
+
+
+
+/* - Font size (paragraph): 15px
+The designs were created to the following widths:
+ - Mobile: 375px 
+ - Desktop: 1440px */
+
+
+/* import google font */
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&display=swap');
+
+body {
+    height: 100vh;
+    font-family: 'Catamaran', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-white);
+}
+
+/* reset */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 2px solid red; */
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--clr-light-gray);
+    width: 100%;
+    max-width: 1440px;
+    height: 75vh;
+    box-shadow: 1rem 2rem 5rem rgba(0, 0, 0, .2);
+}
+
+.card {
+    background-color: var(--clr-white);
+    width: 345px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 1.6rem;
+}
+
+.description {
+   padding: 0 20px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 1.6rem;
+    color: var(--clr-dark-blue);
+}
+
+p {
+    margin-bottom: 1.6rem;
+    font-weight: 400;
+    font-size: 15px;
+    color: var(--clr-gray-blue);
+}
+
+@media screen  and (max-width: 1439px) {
+    .main {
+        height: 100vh;
+    }
+    
+}
