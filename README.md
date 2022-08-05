@@ -5,8 +5,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ## Table of contents
 
 - [Overview](#overview)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
+- [Links](#links)
 
 ## Overview
 
@@ -16,5 +15,5 @@ Also for free ther was no design files, check everything with naked eye.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: https://github.com/AndyAlis/FE_mentor_QR_component
+- Live Site URL: https://andyalis.github.io/FE_mentor_QR_component/
